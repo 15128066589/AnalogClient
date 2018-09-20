@@ -7,9 +7,11 @@
 <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
 </head>
 <body>
-	<table>
-		<a href=""/>
-	</table>
+	<div style="width:100%;text-align:center;margin:">
+		<table >
+			<a href="testSubmit">你试试能不能返回到登录页</a>
+		</table>
+	</div>
 </body>
 
 </html>
