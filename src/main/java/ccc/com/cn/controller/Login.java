@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Login {
     @RequestMapping("/ind") 
     public String login() {
-        return "index2";
+        return "eauthNewLoginPage";
     }
 //    @RequestMapping("/init")
 //    @ResponseBody
@@ -17,11 +17,11 @@ public class Login {
 //    }
     @RequestMapping("/testSubmit") 
     public String testSubmit(){
-    	return "index3";
+    	return "testSubmitPage";
     }
     @RequestMapping("/submitonccc") 
     public String submitOn(){
     	
-    	return "index4";
+    	return "testReturnPage";
     }
 }
